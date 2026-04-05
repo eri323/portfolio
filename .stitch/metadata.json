@@ -1,0 +1,22 @@
+{
+  "name": "projects/13748781373523298951",
+  "projectId": "13748781373523298951",
+  "title": "QA & Dev Portfolio",
+  "visibility": "PRIVATE",
+  "createTime": "2026-04-03T00:48:53.851774Z",
+  "updateTime": "2026-04-03T00:48:53.851774Z",
+  "projectType": "PROJECT_DESIGN",
+  "origin": "STITCH",
+  "deviceType": "DESKTOP",
+  "designTheme": {
+    "colorMode": "DARK",
+    "font": "OUTFIT",
+    "roundness": "ROUND_EIGHT",
+    "customColor": "#06B6D4",
+    "saturation": 3
+  },
+  "screens": {},
+  "metadata": {
+    "userRole": "OWNER"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "root": "ROOT",
+    "src": "SRC",
+    "tests": "TESTS",
+    "logs": "LOGS"
+  },
+  "sidebar": {
+    "navTree": "NAVIGATION_TREE",
+    "systemStatus": "SYSTEM_STATUS",
+    "operational": "OPERATIONAL"
+  },
+  "hero": {
+    "available": "AVAILABLE_FOR_HIRE",
+    "titleP1": "QA Analyst",
+    "titleP2": "Full-stack Development",
+    "subtitle": "Bridging the gap between bulletproof stability and rapid innovation. I engineer systems that don't just work — they excel under pressure.",
+    "cta1": "Initialize Connection",
+    "cta2": "View Projects",
+    "buildStatus": "Build Status: Success",
+    "allPassed": "All tests passed",
+    "testSuite": "test_suite.spec.js"
+  },
+  "competencies": {
+    "sectionTitle": "CORE_CAPABILITIES",
+    "gridOffset": "OFFSET_GRID_V1",
+    "autoTesting": {
+      "title": "QA Automation & Screenplay",
+      "desc": "Designing scalable automation frameworks for the banking sector (Grupo Aval & SQA), applying the Screenplay pattern with Java and Serenity BDD for clean, maintainable suites."
+    },
+    "bankingCore": {
+      "title": "Core Banking & Transactions",
+      "desc": "Specialized in financial transaction validation, ensuring the integrity of ISO 8583 messaging, Postilion, and Base24 payment gateways."
+    },
+    "apiTesting": {
+      "title": "API & Integration Testing",
+      "desc": "Designing and executing comprehensive REST and SOAP web services tests using Postman and SoapUI to guarantee security in financial systems."
+    },
+    "fullstack": {
+      "title": "Full-Stack Web Development",
+      "desc": "Building modular applications integrating React, Vue3, and Tailwind with robust backends like Node.js, Express, and databases (MySQL, PostgreSQL, MongoDB, Supabase)."
+    }
+  },
+  "projects": {
+    "sectionTitle": "Featured_Projects",
+    "viewAll": "VIEW_ALL_REPOS",
+    "projectSuffix": "_PROJECT",
+    "bot": {
+      "title": "Banking QA Framework",
+      "desc": "An enterprise-grade automation framework built for financial core systems, integrating Serenity BDD and Java for strict transactional verification."
+    },
+    "testSuite": {
+      "title": "ISO 8583 Transaction Simulator",
+      "desc": "A custom utility for simulating and validating Base24 financial messages and payment gateway interactions prior to production deployment."
+    },
+    "portfolio": {
+      "title": "Nursing Lab ChatBot",
+      "desc": "A conversational web application built with React and Express for managing laboratory reservations and equipment check-outs."
+    }
+  },
+  "contact": {
+    "title1": "Ready to",
+    "title2": "Build",
+    "title3": "Together?",
+    "desc": "I'm currently seeking impactful roles where technical precision meets creative problem solving. Let's build something reliable.",
+    "cta": "Let's Collaborate",
+    "github": "GITHUB",
+    "linkedin": "LINKEDIN"
+  },
+  "header": {
+    "title": "JR { DEV } & [QA]"
+  }
+}

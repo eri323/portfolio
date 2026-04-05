@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&amp;family=JetBrains+Mono:wght@400;700&amp;family=Space+Grotesk:wght@300;700&amp;family=Manrope:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container": "#201f22",
+                    "primary-container": "#06b6d4",
+                    "on-secondary": "#2f3037",
+                    "surface-container-low": "#1c1b1d",
+                    "primary-fixed-dim": "#4cd7f6",
+                    "on-surface-variant": "#bcc9cd",
+                    "outline": "#869397",
+                    "on-primary-fixed-variant": "#004e5c",
+                    "secondary-container": "#45464e",
+                    "inverse-on-surface": "#313032",
+                    "on-primary-container": "#00424f",
+                    "on-background": "#e5e1e4",
+                    "on-tertiary-fixed": "#1a1c1d",
+                    "on-error-container": "#ffdad6",
+                    "on-surface": "#e5e1e4",
+                    "tertiary-fixed": "#e2e2e3",
+                    "primary-fixed": "#acedff",
+                    "error-container": "#93000a",
+                    "on-tertiary-container": "#3a3c3d",
+                    "tertiary-container": "#a5a6a7",
+                    "surface-tint": "#4cd7f6",
+                    "tertiary": "#c6c6c7",
+                    "surface-container-highest": "#353437",
+                    "background": "#131315",
+                    "on-primary": "#003640",
+                    "inverse-surface": "#e5e1e4",
+                    "surface-bright": "#39393b",
+                    "surface": "#131315",
+                    "surface-dim": "#131315",
+                    "primary": "#4cd7f6",
+                    "secondary-fixed": "#e2e1eb",
+                    "error": "#ffb4ab",
+                    "on-secondary-container": "#b4b4bd",
+                    "outline-variant": "#3d494c",
+                    "on-tertiary": "#2f3132",
+                    "tertiary-fixed-dim": "#c6c6c7",
+                    "on-primary-fixed": "#001f26",
+                    "on-secondary-fixed": "#1a1b22",
+                    "inverse-primary": "#00687a",
+                    "secondary": "#c6c6cf",
+                    "on-secondary-fixed-variant": "#45464e",
+                    "on-tertiary-fixed-variant": "#454748",
+                    "surface-container-lowest": "#0e0e10",
+                    "surface-container-high": "#2a2a2c",
+                    "surface-variant": "#353437",
+                    "on-error": "#690005",
+                    "secondary-fixed-dim": "#c6c6cf"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Outfit", "sans-serif"],
+                    "body": ["Manrope", "sans-serif"],
+                    "label": ["JetBrains Mono", "monospace"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .stiff-spring-motion {
+        transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface-container-lowest text-on-surface font-body overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar Shell -->
+<header class="fixed top-0 w-full z-50 bg-[#131315]/60 backdrop-blur-xl border-b border-white/5 flex justify-between items-center px-6 py-3">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-cyan-400" data-icon="terminal">terminal</span>
+<h1 class="font-['JetBrains_Mono'] text-lg font-black text-cyan-400 tracking-tighter">JR {DEV} &amp; [QA]</h1>
+</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-cyan-400 font-bold border-b-2 border-cyan-400 font-['Outfit'] uppercase tracking-tight text-sm" href="#">ROOT</a>
+<a class="text-slate-500 font-medium hover:text-cyan-300 transition-all duration-200 font-['Outfit'] uppercase tracking-tight text-sm" href="#">SRC</a>
+<a class="text-slate-500 font-medium hover:text-cyan-300 transition-all duration-200 font-['Outfit'] uppercase tracking-tight text-sm" href="#">TESTS</a>
+<a class="text-slate-500 font-medium hover:text-cyan-300 transition-all duration-200 font-['Outfit'] uppercase tracking-tight text-sm" href="#">LOGS</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-slate-500 hover:text-cyan-400 transition-colors">
+<span class="material-symbols-outlined" data-icon="settings_ethernet">settings_ethernet</span>
+</button>
+</div>
+</header>
+<!-- NavigationDrawer (Mobile/Technical Rail) -->
+<nav class="fixed left-0 top-0 h-screen w-16 md:w-64 border-r border-white/5 bg-[#0E0E10] flex flex-col h-full py-20 z-40 hidden md:flex">
+<div class="px-6 mb-8">
+<p class="font-['JetBrains_Mono'] text-xs uppercase tracking-widest text-slate-500">NAVIGATION_TREE</p>
+</div>
+<div class="flex flex-col gap-1">
+<a class="flex items-center gap-3 text-cyan-400 bg-cyan-400/10 border-l-2 border-cyan-400 px-4 py-2 font-['JetBrains_Mono'] text-xs uppercase tracking-widest stiff-spring-motion" href="#">
+<span class="material-symbols-outlined" data-icon="folder_open">folder_open</span>
+<span>ROOT</span>
+</a>
+<a class="flex items-center gap-3 text-slate-500 px-4 py-2 hover:bg-white/5 hover:text-cyan-300 font-['JetBrains_Mono'] text-xs uppercase tracking-widest stiff-spring-motion" href="#">
+<span class="material-symbols-outlined" data-icon="code">code</span>
+<span>SRC</span>
+</a>
+<a class="flex items-center gap-3 text-slate-500 px-4 py-2 hover:bg-white/5 hover:text-cyan-300 font-['JetBrains_Mono'] text-xs uppercase tracking-widest stiff-spring-motion" href="#">
+<span class="material-symbols-outlined" data-icon="biotech">biotech</span>
+<span>TESTS</span>
+</a>
+<a class="flex items-center gap-3 text-slate-500 px-4 py-2 hover:bg-white/5 hover:text-cyan-300 font-['JetBrains_Mono'] text-xs uppercase tracking-widest stiff-spring-motion" href="#">
+<span class="material-symbols-outlined" data-icon="history_edu">history_edu</span>
+<span>LOGS</span>
+</a>
+</div>
+<div class="mt-auto px-6 py-4">
+<div class="bg-surface-container-high p-4 rounded-lg border border-outline-variant/20">
+<p class="text-[10px] font-['JetBrains_Mono'] text-cyan-500 mb-1">SYSTEM_STATUS</p>
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></div>
+<span class="text-[10px] font-['JetBrains_Mono'] text-on-surface-variant">OPERATIONAL</span>
+</div>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="md:ml-64 pt-24 pb-12 px-6 lg:px-12 bg-surface">
+<!-- Hero Section (Asymmetric) -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-24 items-start">
+<div class="lg:col-span-7 pt-12">
+<div class="inline-block px-3 py-1 bg-primary-container/10 border border-primary-container/30 rounded-full mb-6">
+<span class="font-['JetBrains_Mono'] text-xs text-primary tracking-tighter">BUILD_V2.4.0_DEPLOYED</span>
+</div>
+<h2 class="font-headline text-5xl lg:text-7xl font-extrabold tracking-tight text-on-surface mb-8 leading-[0.95]">
+                    Quality Assurance <br/>
+<span class="text-primary">+</span> <br/>
+                    Full-stack Engineering
+                </h2>
+<p class="font-body text-lg text-on-surface-variant max-w-xl mb-10 leading-relaxed">
+                    Bridging the gap between bulletproof stability and rapid innovation. I engineer systems that don't just work—they excel under pressure.
+                </p>
+<div class="flex flex-wrap gap-4">
+<button class="px-8 py-3 bg-gradient-to-br from-primary to-primary-container text-on-primary-container font-bold rounded-md hover:scale-95 active:scale-90 transition-all duration-200 uppercase tracking-wider text-sm">
+                        Initialize Connection
+                    </button>
+<button class="px-8 py-3 bg-surface-container-high text-primary font-bold rounded-md hover:bg-surface-container-highest transition-all duration-200 uppercase tracking-wider text-sm border border-outline-variant/30">
+                        View Dossier
+                    </button>
+</div>
+</div>
+<!-- Technical Terminal Graphic -->
+<div class="lg:col-span-5 bg-surface-container-lowest rounded-xl border border-outline-variant/20 overflow-hidden shadow-2xl relative group">
+<div class="flex items-center justify-between px-4 py-2 bg-surface-container-high border-b border-outline-variant/20">
+<div class="flex gap-1.5">
+<div class="w-2.5 h-2.5 rounded-full bg-red-500/50"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-yellow-500/50"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-green-500/50"></div>
+</div>
+<span class="font-['JetBrains_Mono'] text-[10px] text-slate-500">test_suite.yaml</span>
+</div>
+<div class="p-6 font-['JetBrains_Mono'] text-sm leading-relaxed overflow-x-auto">
+<div class="flex gap-4">
+<span class="text-slate-600">01</span>
+<span class="text-cyan-400">it</span>('<span class="text-yellow-200">should validate end-to-end flow</span>', () =&gt; {
+                    </div>
+<div class="flex gap-4">
+<span class="text-slate-600">02</span>
+<span class="pl-4 text-purple-400">const</span> <span class="text-on-surface">system</span> = <span class="text-blue-400">await</span> <span class="text-on-surface">Deploy</span>.<span class="text-green-400">main</span>();
+                    </div>
+<div class="flex gap-4">
+<span class="text-slate-600">03</span>
+<span class="pl-4 text-cyan-400">expect</span>(<span class="text-on-surface">system.reliability</span>).<span class="text-green-400">toBeGreaterThan</span>(<span class="text-yellow-200">99.9</span>);
+                    </div>
+<div class="flex gap-4">
+<span class="text-slate-600">04</span>
+<span class="text-on-surface">});</span>
+</div>
+<div class="mt-6 pt-6 border-t border-white/5">
+<div class="flex items-center gap-2 text-green-400">
+<span class="material-symbols-outlined text-sm" data-icon="check_circle">check_circle</span>
+<span class="text-xs uppercase tracking-widest">Build Status: Success</span>
+</div>
+<div class="mt-2 flex items-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-sm" data-icon="speed">speed</span>
+<span class="text-xs">Runtime: 124ms | Coverage: 100%</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Competencies (Asymmetrical Grid) -->
+<section class="mb-24">
+<div class="flex items-baseline justify-between mb-12 border-b border-outline-variant/10 pb-4">
+<h3 class="font-['JetBrains_Mono'] text-xs uppercase tracking-[0.3em] text-cyan-500">CORE_CAPABILITIES</h3>
+<span class="text-[10px] font-['JetBrains_Mono'] text-slate-600">OFFSET_GRID_V1</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-4">
+<!-- Card 1 -->
+<div class="md:col-span-8 bg-surface-container border border-outline-variant/10 p-8 hover:bg-surface-container-high transition-colors group">
+<span class="material-symbols-outlined text-3xl text-primary mb-6" data-icon="biotech">biotech</span>
+<h4 class="font-headline text-2xl font-bold text-on-surface mb-4">Automated Testing</h4>
+<p class="text-on-surface-variant max-w-lg mb-6 leading-relaxed">Designing robust Selenium, Cypress, and Playwright architectures that catch regressions before they reach staging.</p>
+<div class="flex gap-2">
+<span class="text-[10px] font-['JetBrains_Mono'] px-2 py-1 bg-surface-container-highest text-cyan-300">PYTEST</span>
+<span class="text-[10px] font-['JetBrains_Mono'] px-2 py-1 bg-surface-container-highest text-cyan-300">PLAYWRIGHT</span>
+<span class="text-[10px] font-['JetBrains_Mono'] px-2 py-1 bg-surface-container-highest text-cyan-300">JEST</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="md:col-span-4 bg-surface-container-low border border-outline-variant/10 p-8 hover:bg-surface-container-high transition-colors flex flex-col justify-between">
+<div>
+<span class="material-symbols-outlined text-3xl text-primary mb-6" data-icon="smartphone">smartphone</span>
+<h4 class="font-headline text-2xl font-bold text-on-surface mb-4">React Native</h4>
+</div>
+<p class="text-sm text-on-surface-variant leading-relaxed">Cross-platform mobile engineering with a focus on UI/UX fidelity and high-performance state management.</p>
+</div>
+<!-- Card 3 -->
+<div class="md:col-span-5 bg-surface-container-low border border-outline-variant/10 p-8 hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-3xl text-primary mb-6" data-icon="published_with_changes">published_with_changes</span>
+<h4 class="font-headline text-2xl font-bold text-on-surface mb-4">CI/CD Pipelines</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed mb-6">Optimizing GitHub Actions and Jenkins workflows to reduce build times and automate deployment safety gates.</p>
+<div class="w-full h-1 bg-surface-container-highest overflow-hidden">
+<div class="w-2/3 h-full bg-primary animate-pulse"></div>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="md:col-span-7 bg-surface-container border border-outline-variant/10 p-8 hover:bg-surface-container-high transition-colors relative overflow-hidden group">
+<div class="relative z-10">
+<span class="material-symbols-outlined text-3xl text-primary mb-6" data-icon="rule">rule</span>
+<h4 class="font-headline text-2xl font-bold text-on-surface mb-4">Manual QA Strategy</h4>
+<p class="text-on-surface-variant max-w-md leading-relaxed">Meticulous exploratory testing, edge-case documentation, and visual regression audits for pixel-perfect releases.</p>
+</div>
+<!-- Decorative technical overlay -->
+<div class="absolute right-0 top-0 p-4 opacity-10 group-hover:opacity-30 transition-opacity">
+<span class="material-symbols-outlined text-8xl" data-icon="bug_report">bug_report</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Projects (List View) -->
+<section class="mb-24">
+<div class="flex items-baseline justify-between mb-12">
+<h3 class="font-headline text-4xl font-extrabold tracking-tight text-on-surface">Featured_Projects</h3>
+<a class="font-['JetBrains_Mono'] text-xs text-primary hover:underline underline-offset-4" href="#">VIEW_ALL_REPOS</a>
+</div>
+<div class="space-y-0">
+<!-- Project Item 1 -->
+<div class="group py-10 border-t border-outline-variant/20 flex flex-col md:flex-row gap-8 items-start hover:bg-white/[0.02] transition-all px-4">
+<div class="flex-shrink-0 w-full md:w-48">
+<span class="font-['JetBrains_Mono'] text-sm text-slate-500">01_PROJECT</span>
+</div>
+<div class="flex-grow">
+<h4 class="font-headline text-2xl font-bold text-on-surface mb-2 group-hover:text-primary transition-colors">Neural_Audit_Framework</h4>
+<div class="flex gap-4 mb-4">
+<span class="font-['JetBrains_Mono'] text-xs text-cyan-500">[ REACT_NATIVE ]</span>
+<span class="font-['JetBrains_Mono'] text-xs text-cyan-500">[ NODE.JS ]</span>
+<span class="font-['JetBrains_Mono'] text-xs text-cyan-500">[ AWS ]</span>
+</div>
+<p class="text-on-surface-variant max-w-2xl leading-relaxed">A specialized dashboard for monitoring real-time API latency and visual regression across three regional clusters. Includes custom alerting bots.</p>
+</div>
+<div class="flex-shrink-0">
+<button class="p-4 border border-outline-variant/30 rounded-md hover:border-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="arrow_outward">arrow_outward</span>
+</button>
+</div>
+</div>
+<!-- Project Item 2 -->
+<div class="group py-10 border-t border-outline-variant/20 flex flex-col md:flex-row gap-8 items-start hover:bg-white/[0.02] transition-all px-4">
+<div class="flex-shrink-0 w-full md:w-48">
+<span class="font-['JetBrains_Mono'] text-sm text-slate-500">02_PROJECT</span>
+</div>
+<div class="flex-grow">
+<h4 class="font-headline text-2xl font-bold text-on-surface mb-2 group-hover:text-primary transition-colors">Titan_Test_Runner</h4>
+<div class="flex gap-4 mb-4">
+<span class="font-['JetBrains_Mono'] text-xs text-cyan-500">[ PYTHON ]</span>
+<span class="font-['JetBrains_Mono'] text-xs text-cyan-500">[ SELENIUM ]</span>
+<span class="font-['JetBrains_Mono'] text-xs text-cyan-500">[ DOCKER ]</span>
+</div>
+<p class="text-on-surface-variant max-w-2xl leading-relaxed">An open-source automation utility that parallelizes UI tests across isolated container nodes, reducing total runtime by 74%.</p>
+</div>
+<div class="flex-shrink-0">
+<button class="p-4 border border-outline-variant/30 rounded-md hover:border-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="arrow_outward">arrow_outward</span>
+</button>
+</div>
+</div>
+<!-- Project Item 3 -->
+<div class="group py-10 border-t border-b border-outline-variant/20 flex flex-col md:flex-row gap-8 items-start hover:bg-white/[0.02] transition-all px-4">
+<div class="flex-shrink-0 w-full md:w-48">
+<span class="font-['JetBrains_Mono'] text-sm text-slate-500">03_PROJECT</span>
+</div>
+<div class="flex-grow">
+<h4 class="font-headline text-2xl font-bold text-on-surface mb-2 group-hover:text-primary transition-colors">Velocity_UI_Kit</h4>
+<div class="flex gap-4 mb-4">
+<span class="font-['JetBrains_Mono'] text-xs text-cyan-500">[ TAILWIND ]</span>
+<span class="font-['JetBrains_Mono'] text-xs text-cyan-500">[ TYPESCRIPT ]</span>
+<span class="font-['JetBrains_Mono'] text-xs text-cyan-500">[ STORYBOOK ]</span>
+</div>
+<p class="text-on-surface-variant max-w-2xl leading-relaxed">A design system foundation built for highly technical interfaces, emphasizing performance and strict typing for developer efficiency.</p>
+</div>
+<div class="flex-shrink-0">
+<button class="p-4 border border-outline-variant/30 rounded-md hover:border-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="arrow_outward">arrow_outward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA / Contact -->
+<section class="mb-24 py-20 bg-surface-container-low rounded-xl border border-outline-variant/10 px-8 md:px-16 relative overflow-hidden">
+<div class="relative z-10">
+<h3 class="font-headline text-5xl md:text-6xl font-extrabold text-on-surface mb-8 tracking-tighter">Ready to <br/><span class="text-primary italic">Optimize</span> Your Stack?</h3>
+<p class="font-body text-xl text-on-surface-variant max-w-xl mb-12">I'm currently seeking high-impact roles where technical precision meets creative problem solving. Let's build something unbreakable.</p>
+<div class="flex flex-col sm:flex-row gap-6">
+<a class="inline-flex items-center gap-3 px-10 py-5 bg-primary text-on-primary-container font-black uppercase tracking-widest text-sm stiff-spring-motion hover:shadow-[0_0_20px_rgba(76,215,246,0.3)]" href="mailto:hello@jrdev.io">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+                        Let's Collaborate
+                    </a>
+<div class="flex items-center gap-6">
+<a class="text-slate-500 hover:text-cyan-400 transition-colors font-['JetBrains_Mono'] text-sm tracking-widest" href="#">GITHUB</a>
+<a class="text-slate-500 hover:text-cyan-400 transition-colors font-['JetBrains_Mono'] text-sm tracking-widest" href="#">LINKEDIN</a>
+</div>
+</div>
+</div>
+<!-- Decorative backdrop -->
+<div class="absolute right-[-10%] bottom-[-20%] rotate-12 opacity-5 pointer-events-none">
+<span class="font-['JetBrains_Mono'] text-[20rem] font-black">JR</span>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="md:ml-64 bg-[#0E0E10] border-t border-white/10 w-full">
+<div class="flex flex-col md:flex-row justify-between items-center px-8 py-6 gap-4">
+<div class="flex items-center gap-4">
+<span class="font-['JetBrains_Mono'] text-cyan-500 font-bold text-[10px]">JR_SYSTEMS_V1.0.4</span>
+<span class="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+<p class="font-['JetBrains_Mono'] text-[10px] tracking-tighter text-slate-600">© 2024 TERMINAL_LOG_V1.0.4</p>
+</div>
+<div class="flex gap-8">
+<a class="font-['JetBrains_Mono'] text-[10px] tracking-tighter text-slate-600 hover:text-cyan-300 transition-colors uppercase" href="#">GITHUB</a>
+<a class="font-['JetBrains_Mono'] text-[10px] tracking-tighter text-slate-600 hover:text-cyan-300 transition-colors uppercase" href="#">LINKEDIN</a>
+<a class="font-['JetBrains_Mono'] text-[10px] tracking-tighter text-slate-600 hover:text-cyan-300 transition-colors uppercase" href="#">DOCS</a>
+</div>
+<div class="text-[10px] font-['JetBrains_Mono'] text-slate-700">
+                LATENCY: 14MS // PORT: 8080
+            </div>
+</div>
+</footer>
+</body></html>

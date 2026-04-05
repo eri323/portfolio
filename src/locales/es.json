@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "root": "INICIO",
+    "src": "CÓDIGO",
+    "tests": "PRUEBAS",
+    "logs": "REGISTROS"
+  },
+  "sidebar": {
+    "navTree": "ÁRBOL_DE_NAVEGACIÓN",
+    "systemStatus": "ESTADO_DEL_SISTEMA",
+    "operational": "OPERATIVO"
+  },
+  "hero": {
+    "available": "DISPONIBLE_PARA_CONTRATAR",
+    "titleP1": "QA Analyst",
+    "titleP2": "Desarrollo Full-stack",
+    "subtitle": "Cerrando la brecha entre la estabilidad a prueba de balas y la innovación rápida. Diseño sistemas que no solo funcionan, sino que sobresalen bajo presión.",
+    "cta1": "Inicializar Conexión",
+    "cta2": "Ver Proyectos",
+    "buildStatus": "Estado del Build: Éxito",
+    "allPassed": "Todas las pruebas pasaron",
+    "testSuite": "suite_pruebas.spec.js"
+  },
+  "competencies": {
+    "sectionTitle": "CAPACIDADES_NÚCLEO",
+    "gridOffset": "REJILLA_DESFASADA_V1",
+    "autoTesting": {
+      "title": "QA Automation y Screenplay",
+      "desc": "Diseño de marcos de automatización orientados al sector bancario (Grupo Aval / SQA), aplicando el patrón Screenplay con Java y Serenity BDD para pruebas impecables."
+    },
+    "bankingCore": {
+      "title": "Core Bancario y Transacciones",
+      "desc": "Especialista en validación de transacciones financieras, asegurando la integridad de la mensajería ISO 8583, pasarelas Postilion y Base24."
+    },
+    "apiTesting": {
+      "title": "Pruebas de Integración y API",
+      "desc": "Diseño y ejecución de pruebas exhaustivas para servicios REST y SOAP usando Postman y SoapUI, garantizando seguridad en sistemas financieros."
+    },
+    "fullstack": {
+      "title": "Desarrollo Full-Stack Web",
+      "desc": "Creación de aplicaciones modulares con React, Vue3 y TailwindCSS, integrando backends con Node.js, Express y bases de datos (MySQL, PostgreSQL, MongoDB, Supabase)."
+    }
+  },
+  "projects": {
+    "sectionTitle": "Proyectos_Destacados",
+    "viewAll": "VER_TODOS_LOS_REPOS",
+    "projectSuffix": "_PROYECTO",
+    "bot": {
+      "title": "Framework QA Bancario",
+      "desc": "Marco de automatización empresarial para sistemas core financieros, integrando Serenity BDD y Java para la verificación estricta de arquitecturas transaccionales."
+    },
+    "testSuite": {
+      "title": "Simulador Transaccional ISO 8583",
+      "desc": "Utilidad personalizada para simular y analizar mensajes financieros Base24 e interactuar con pasarelas de pago previo paso a producción."
+    },
+    "portfolio": {
+      "title": "ChatBot Enfermería",
+      "desc": "Aplicación conversacional construida con React, Node.js y bases de datos modernas para gestionar reservas de laboratorios y préstamo de equipos clínicos."
+    }
+  },
+  "contact": {
+    "title1": "¿Listo para",
+    "title2": "Construir",
+    "title3": "Juntos?",
+    "desc": "Actualmente busco roles de impacto donde la precisión técnica se encuentra con la creatividad. Construyamos código confiable.",
+    "cta": "Vamos a Colaborar",
+    "github": "GITHUB",
+    "linkedin": "LINKEDIN"
+  },
+  "header": {
+    "title": "JR { DEV } & [QA]"
+  }
+}
