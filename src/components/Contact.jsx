@@ -17,7 +17,7 @@ export default function Contact() {
         </p>
         <div className="flex flex-col sm:flex-row gap-6 animate-fade-in-up-delay-2">
           <a
-            href="mailto:hello@jrdev.io"
+            href="mailto:erickgutierrez085@gmail.com"
             className="inline-flex items-center gap-3 px-10 py-5 bg-accent text-canvas font-black uppercase tracking-widest text-sm spring-motion hover:shadow-[0_0_20px_rgba(6,182,212,0.3)]"
           >
             <span className="material-symbols-outlined">mail</span>
@@ -25,7 +25,7 @@ export default function Contact() {
           </a>
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/eri323"
               target="_blank"
               rel="noopener noreferrer"
               className="text-text-muted hover:text-accent transition-colors font-mono text-sm tracking-widest"
@@ -33,7 +33,7 @@ export default function Contact() {
               {t('contact.github')}
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/erick-gutiérrez-8b4289248"
               target="_blank"
               rel="noopener noreferrer"
               className="text-text-muted hover:text-accent transition-colors font-mono text-sm tracking-widest"
