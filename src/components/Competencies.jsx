@@ -62,9 +62,6 @@ export default function Competencies() {
         <h3 className="font-mono text-xs uppercase tracking-[0.3em] text-accent">
           {t('competencies.sectionTitle')}
         </h3>
-        <span className="text-[10px] font-mono text-text-faint">
-          {t('competencies.gridOffset')}
-        </span>
       </div>
 
      

@@ -15,7 +15,7 @@ i18n
     },
     fallbackLng: 'en',
     interpolation: {
-      escapeValue: false // React already escapes values
+      escapeValue: false 
     }
   });
 

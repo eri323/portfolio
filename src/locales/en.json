@@ -1,40 +1,34 @@
 {
   "nav": {
-    "root": "ROOT",
-    "src": "SRC",
-    "tests": "TESTS",
-    "logs": "LOGS"
+    "root": "HOME",
+    "src": "SKILLS",
+    "tests": "PROJECTS",
+    "logs": "CONTACT"
   },
   "sidebar": {
-    "navTree": "NAVIGATION_TREE",
-    "systemStatus": "SYSTEM_STATUS",
-    "operational": "OPERATIONAL"
+    "navTree": "NAVIGATION"
   },
   "hero": {
-    "available": "AVAILABLE_FOR_HIRE",
+    "available": "Available for Hire",
     "titleP1": "QA Analyst",
     "titleP2": "Full-stack Development",
     "subtitle": "Bridging the gap between bulletproof stability and rapid innovation. I engineer systems that don't just work — they excel under pressure.",
     "cta1": "Initialize Connection",
-    "cta2": "View Projects",
-    "buildStatus": "Build Status: Success",
-    "allPassed": "All tests passed",
-    "testSuite": "test_suite.spec.js"
+    "cta2": "View Projects"
   },
   "competencies": {
-    "sectionTitle": "CORE_CAPABILITIES",
-    "gridOffset": "OFFSET_GRID_V1",
+    "sectionTitle": "Skills",
     "autoTesting": {
-      "title": "QA Automation & Screenplay",
-      "desc": "Designing scalable automation frameworks for the banking sector (Grupo Aval & SQA), applying the Screenplay pattern with Java and Serenity BDD for clean, maintainable suites."
+      "title": "QA Automation",
+      "desc": "Design of automation frameworks with Java and Serenity BDD for impeccable testing."
     },
     "bankingCore": {
-      "title": "Core Banking & Transactions",
-      "desc": "Specialized in financial transaction validation, ensuring the integrity of ISO 8583 messaging, Postilion, and Base24 payment gateways."
+      "title": "Banking Functional QA",
+      "desc": "Management of the complete functional testing cycle in banking systems: estimation, strategy, test case design and execution, to certifications with Redeban (BRE-B). Specialist in ISO 8583 messaging validation, Postilion and Base24 gateways."
     },
     "apiTesting": {
-      "title": "API & Integration Testing",
-      "desc": "Designing and executing comprehensive REST and SOAP web services tests using Postman and SoapUI to guarantee security in financial systems."
+      "title": "QA API",
+      "desc": "Design and execution of comprehensive REST and SOAP tests using Postman and SoapUI, ensuring security in financial systems."
     },
     "fullstack": {
       "title": "Full-Stack Web Development",
@@ -42,20 +36,19 @@
     }
   },
   "projects": {
-    "sectionTitle": "Featured_Projects",
-    "viewAll": "VIEW_ALL_REPOS",
-    "projectSuffix": "_PROJECT",
+    "sectionTitle": "Development & QA Automation Projects",
+    "projectSuffix": " - Project",
     "bot": {
-      "title": "Banking QA Framework",
-      "desc": "An enterprise-grade automation framework built for financial core systems, integrating Serenity BDD and Java for strict transactional verification."
+      "title": "In progress...",
+      "desc": "In progress..."
     },
     "testSuite": {
-      "title": "ISO 8583 Transaction Simulator",
-      "desc": "A custom utility for simulating and validating Base24 financial messages and payment gateway interactions prior to production deployment."
+      "title": "In progress...",
+      "desc": "In progress..."
     },
     "portfolio": {
       "title": "Nursing Lab ChatBot",
-      "desc": "A conversational web application built with React and Express for managing laboratory reservations and equipment check-outs."
+      "desc": "Conversational application built with React, Node.js and modern databases to manage laboratory reservations for the university's health sciences faculty."
     }
   },
   "contact": {
@@ -68,6 +61,6 @@
     "linkedin": "LINKEDIN"
   },
   "header": {
-    "title": "JR { DEV } & [QA]"
+    "title": "JR Dev & QA"
   }
 }

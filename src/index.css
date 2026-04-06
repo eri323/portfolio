@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
 @theme {
-  --font-headline: "Outfit", sans-serif;
-  --font-body: "Outfit", sans-serif;
-  --font-mono: "JetBrains Mono", monospace;
+  --font-headline: "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "Inter", sans-serif;
 
   --color-canvas: #09090B;
   --color-surface: #131315;
@@ -19,9 +21,9 @@
   --color-text-muted: #71717A;
   --color-text-faint: #52525B;
 
-  --color-accent: #06B6D4;
-  --color-accent-dim: #4cd7f6;
-  --color-accent-container: #004e5c;
+  --color-accent: #3b82f6;
+  --color-accent-dim: #60a5fa;
+  --color-accent-container: #1e3a8a;
 
   --color-border: rgba(255, 255, 255, 0.08);
   --color-border-hover: rgba(255, 255, 255, 0.15);

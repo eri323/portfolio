@@ -53,12 +53,6 @@ export default function Projects() {
         <h3 className="font-headline text-4xl font-extrabold tracking-tight text-text-primary">
           {t('projects.sectionTitle')}
         </h3>
-        <a
-          href="#"
-          className="font-mono text-xs text-accent hover:underline underline-offset-4"
-        >
-          {t('projects.viewAll')}
-        </a>
       </div>
 
      

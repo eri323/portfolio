@@ -32,19 +32,6 @@ export default function Sidebar() {
         ))}
       </div>
 
-      <div className="mt-auto px-6 py-4">
-        <div className="bg-surface-high p-4 rounded-lg border border-white/5">
-          <p className="text-[10px] font-mono text-accent mb-1">
-            {t('sidebar.systemStatus')}
-          </p>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 rounded-full bg-success animate-pulse" />
-            <span className="text-[10px] font-mono text-text-secondary">
-              {t('sidebar.operational')}
-            </span>
-          </div>
-        </div>
-      </div>
     </nav>
   );
 }

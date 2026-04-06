@@ -2,7 +2,6 @@ import { CODE_SNIPPET } from "../data/portfolioData";
 import { useTranslation } from "react-i18next";
 
 function TerminalWindow() {
-  const { t } = useTranslation();
   return (
     <div className="bg-canvas rounded-xl border border-white/10 overflow-hidden shadow-2xl animate-fade-in-up-delay-2">
      
@@ -12,9 +11,6 @@ function TerminalWindow() {
           <div className="w-2.5 h-2.5 rounded-full bg-warning/50" />
           <div className="w-2.5 h-2.5 rounded-full bg-success/50" />
         </div>
-        <span className="font-mono text-[10px] text-text-muted">
-          {t('hero.testSuite')}
-        </span>
       </div>
 
      
@@ -38,22 +34,6 @@ function TerminalWindow() {
             </span>
           </div>
         ))}
-
-      
-        <div className="mt-6 pt-6 border-t border-white/5">
-          <div className="flex items-center gap-2 text-success">
-            <span className="material-symbols-outlined text-sm">
-              check_circle
-            </span>
-            <span className="text-xs uppercase tracking-widest">
-              {t('hero.buildStatus')}
-            </span>
-          </div>
-          <div className="mt-2 flex items-center gap-2 text-text-secondary">
-            <span className="material-symbols-outlined text-sm">speed</span>
-            <span className="text-xs">{t('hero.allPassed')}</span>
-          </div>
-        </div>
       </div>
     </div>
   );
