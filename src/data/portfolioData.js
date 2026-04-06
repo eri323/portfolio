@@ -63,7 +63,7 @@ export const PROJECTS = [
     index: "03",
     titleKey: "projects.portfolio.title",
     descKey: "projects.portfolio.desc",
-    tags: ["REACT", "NODE.JS", "MONGODB"],
+    tags: ["REACT", "NODE.JS", "POSTGRESQL-SUPABASE"],
   },
 ];
 
