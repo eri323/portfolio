@@ -9,59 +9,65 @@
     "navTree": "NAVEGACIÓN"
   },
   "hero": {
-    "available": "Disponible para contratar",
-    "titleP1": "QA Analyst",
-    "titleP2": "Desarrollo Full-stack",
-    "subtitle": "Cerrando la brecha entre la estabilidad a prueba de balas y la innovación rápida. Diseño sistemas que no solo funcionan, sino que sobresalen bajo presión.",
-    "cta1": "Inicializar Conexión",
-    "cta2": "Ver Proyectos"
-  
+    "available": "Disponible para nuevos retos",
+    "titleP1": "Full Stack Developer",
+    "titleP2": "Sistemas Escalables",
+    "subtitle": "Especialista en JavaScript (React, Node, Next, Vue3) y bases de datos (SQL, Supabase). Creando sistemas escalables para agilizar flujos de trabajo con un enfoque nativo en la calidad del software.",
+    "cta1": "Conectar",
+    "cta2": "Portafolio Técnico"
   },
   "competencies": {
-    "sectionTitle": "Habilidades",
-    "autoTesting": {
-      "title": "QA Automation",
-      "desc": "Diseño de marcos de automatización con Java y Serenity BDD para pruebas impecables."
-    },
-    "bankingCore": {
-      "title": "QA Funcional Bancario",
-      "desc": "Gestión del ciclo completo de pruebas funcionales en sistemas bancarios: estimación, estrategia, diseño y ejecución de casos, hasta certificaciones con Redeban (BRE-B). Especialista en validación de mensajería ISO 8583, pasarelas Postilion y Base24."
-    },
-    "apiTesting": {
-      "title": "QA API",
-      "desc": "Diseño y ejecución de pruebas exhaustivas para servicios REST y SOAP usando Postman y SoapUI, garantizando seguridad en sistemas financieros."
-    },
-    "fullstack": {
-      "title": "Desarrollo Full-Stack Web",
-      "desc": "Creación de aplicaciones modulares con React, Vue3 y TailwindCSS, integrando backends con Node.js, Express y bases de datos (MySQL, PostgreSQL, MongoDB, Supabase)."
+    "upperTitle": "TECH STACK // CAPACIDADES",
+    "sectionTitle": "Integrated Toolset",
+    "sectionDesc": "Una selección especializada de frameworks y lenguajes diseñados para el rendimiento y la escalabilidad en entornos modernos.",
+    "categories": {
+      "interface": "LIBRERÍA DE INTERFAZ",
+      "framework": "META FRAMEWORK",
+      "runtime": "ENTORNO DE EJECUCIÓN",
+      "typing": "TIPADO ESTÁTICO",
+      "database": "DATOS RELACIONALES",
+      "backend": "BACKEND AS A SERVICE",
+      "testing": "MOTOR DE PRUEBAS",
+      "vcs": "CONTROL DE VERSIONES"
     }
   },
   "projects": {
-    "sectionTitle": "Proyectos Desarrollo y QA Automation",
-    "projectSuffix": " - Proyecto",
+    "sectionTitle": "Selected_Modules",
+    "viewAll": "VIEW_ALL",
+    "projectSuffix": " — ",
+    "categories": {
+      "fullstack": "FULLSTACK BOT",
+      "saas": "DELIVERY SAAS",
+      "enterprise": "MANAGEMENT SYSTEM"
+    },
+    "status": {
+      "active": "FRAMEWORK_ACTIVE",
+      "deployed": "SYSTEM_DEPLOYED",
+      "in_progress": "IN_DEVELOPMENT"
+    },
     "bot": {
-      "title": "En proceso...",
-      "desc": "En proceso..."
+      "title": "Chat-bot Enfermería",
+      "desc": "Sistema inteligente para la gestión de reservas y atención en laboratorios de enfermería, desarrollado con React y Supabase."
     },
-    "testSuite": {
-      "title": "En proceso...",
-      "desc": "En proceso..."
+    "domi": {
+      "title": "Domi-SaaS (En proceso)",
+      "desc": "Plataforma SaaS para la gestión de domicilios y seguimiento en tiempo real, optimizando la logística de entrega."
     },
-    "portfolio": {
-      "title": "ChatBot Enfermería",
-      "desc": "Aplicación conversacional construida con React, Node.js y bases de datos modernas para gestionar reservas de laboratorios para la facultad de ciencias de la salud de la Universidad."
+    "erp": {
+      "title": "Sistemas de Gestión",
+      "desc": "Soluciones escalables de inventarios y reservas para distribuidoras y complejos deportivos, enfocadas en agilizar procesos de negocio."
     }
   },
   "contact": {
     "title1": "¿Listo para",
-    "title2": "Construir",
-    "title3": "Juntos?",
-    "desc": "Actualmente busco roles de impacto donde la precisión técnica se encuentra con la creatividad. Construyamos código confiable.",
-    "cta": "Vamos a Colaborar",
+    "title2": "escalar tu",
+    "title3": "negocio?",
+    "desc": "Busco oportunidades donde mi experiencia en desarrollo full stack y obsesión por la calidad aporten valor real. Construyamos sistemas imparables.",
+    "cta": "Hablemos de Código",
     "github": "GITHUB",
     "linkedin": "LINKEDIN"
   },
   "header": {
-    "title": "JR Dev & QA"
+    "title": "FULL STACK & QA PORTFOLIO"
   }
 }

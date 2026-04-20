@@ -1,5 +1,4 @@
 import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
 import Hero from "./components/Hero";
 import Competencies from "./components/Competencies";
 import Projects from "./components/Projects";
@@ -9,10 +8,9 @@ export default function App() {
   return (
     <div className="bg-canvas text-text-primary min-h-dvh overflow-x-hidden">
       <Header />
-      <Sidebar />
 
    
-      <main className="lg:ml-64 pt-24 pb-12 px-6 lg:px-12">
+      <main className="max-w-[1600px] mx-auto pt-24 pb-12 px-6 lg:px-16">
         <Hero />
         <Competencies />
         <Projects />

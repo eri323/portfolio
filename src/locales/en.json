@@ -9,58 +9,65 @@
     "navTree": "NAVIGATION"
   },
   "hero": {
-    "available": "Available for Hire",
-    "titleP1": "QA Analyst",
-    "titleP2": "Full-stack Development",
-    "subtitle": "Bridging the gap between bulletproof stability and rapid innovation. I engineer systems that don't just work — they excel under pressure.",
-    "cta1": "Initialize Connection",
-    "cta2": "View Projects"
+    "available": "Open to new challenges",
+    "titleP1": "Full Stack Developer",
+    "titleP2": "Scalable Systems",
+    "subtitle": "Specialist in JavaScript (React, Node, Next, Vue3) and databases (SQL, Supabase). Creating scalable systems to streamline workflows with a native focus on software quality.",
+    "cta1": "Get in Touch",
+    "cta2": "Technical Portfolio"
   },
   "competencies": {
-    "sectionTitle": "Skills",
-    "autoTesting": {
-      "title": "QA Automation",
-      "desc": "Design of automation frameworks with Java and Serenity BDD for impeccable testing."
-    },
-    "bankingCore": {
-      "title": "Banking Functional QA",
-      "desc": "Management of the complete functional testing cycle in banking systems: estimation, strategy, test case design and execution, to certifications with Redeban (BRE-B). Specialist in ISO 8583 messaging validation, Postilion and Base24 gateways."
-    },
-    "apiTesting": {
-      "title": "QA API",
-      "desc": "Design and execution of comprehensive REST and SOAP tests using Postman and SoapUI, ensuring security in financial systems."
-    },
-    "fullstack": {
-      "title": "Full-Stack Web Development",
-      "desc": "Building modular applications integrating React, Vue3, and Tailwind with robust backends like Node.js, Express, and databases (MySQL, PostgreSQL, MongoDB, Supabase)."
+    "upperTitle": "TECH STACK // CAPABILITIES",
+    "sectionTitle": "Integrated Toolset",
+    "sectionDesc": "A specialized selection of frameworks and languages engineered for performance and scalability in modern environments.",
+    "categories": {
+      "interface": "INTERFACE LIBRARY",
+      "framework": "META FRAMEWORK",
+      "runtime": "RUNTIME ENV",
+      "typing": "STATIC TYPING",
+      "database": "RELATIONAL DATA",
+      "backend": "BACKEND AS A SERVICE",
+      "testing": "TESTING ENGINE",
+      "vcs": "VCS CONTROL"
     }
   },
   "projects": {
-    "sectionTitle": "Development & QA Automation Projects",
-    "projectSuffix": " - Project",
+    "sectionTitle": "Selected_Modules",
+    "viewAll": "VIEW_ALL",
+    "projectSuffix": " — ",
+    "categories": {
+      "fullstack": "FULLSTACK BOT",
+      "saas": "DELIVERY SAAS",
+      "enterprise": "MANAGEMENT SYSTEM"
+    },
+    "status": {
+      "active": "FRAMEWORK_ACTIVE",
+      "deployed": "SYSTEM_DEPLOYED",
+      "in_progress": "IN_DEVELOPMENT"
+    },
     "bot": {
-      "title": "In progress...",
-      "desc": "In progress..."
+      "title": "Nursing Chat-bot",
+      "desc": "Intelligent system for managing reservations and attention in nursing laboratories, developed with React and Supabase."
     },
-    "testSuite": {
-      "title": "In progress...",
-      "desc": "In progress..."
+    "domi": {
+      "title": "Domi-SaaS (In Process)",
+      "desc": "SaaS platform for delivery management and real-time tracking, optimizing delivery logistics."
     },
-    "portfolio": {
-      "title": "Nursing Lab ChatBot",
-      "desc": "Conversational application built with React, Node.js and modern databases to manage laboratory reservations for the university's health sciences faculty."
+    "erp": {
+      "title": "Management Systems",
+      "desc": "Scalable inventory and booking solutions for distributors and sports complexes, focused on streamlining business processes."
     }
   },
   "contact": {
     "title1": "Ready to",
-    "title2": "Build",
-    "title3": "Together?",
-    "desc": "I'm currently seeking impactful roles where technical precision meets creative problem solving. Let's build something reliable.",
-    "cta": "Let's Collaborate",
+    "title2": "scale your",
+    "title3": "business?",
+    "desc": "Seeking opportunities where my full stack development expertise and obsession with quality add real value. Let's build unstoppable systems.",
+    "cta": "Let's Talk Code",
     "github": "GITHUB",
     "linkedin": "LINKEDIN"
   },
   "header": {
-    "title": "JR Dev & QA"
+    "title": "FULL STACK & QA PORTFOLIO"
   }
 }

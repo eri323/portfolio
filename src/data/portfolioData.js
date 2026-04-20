@@ -1,3 +1,6 @@
+import nursingImg from "../assets/projects/nursing_bot.png";
+import domiImg from "../assets/projects/domi_saas.png";
+import inventoryImg from "../assets/projects/inventory.png";
 
 export const NAV_LINKS = [
   { labelKey: "nav.root", href: "#hero", active: true },
@@ -15,61 +18,88 @@ export const SIDEBAR_LINKS = [
 
 export const COMPETENCIES = [
   {
-    titleKey: "competencies.autoTesting.title",
-    descKey: "competencies.autoTesting.desc",
-    icon: "account_balance",
-    tags: ["JAVA", "SERENITY BDD", "SCREENPLAY"],
-    span: "md:col-span-8",
+    title: "React.js",
+    categoryKey: "competencies.categories.interface",
+    icon: "hub",
+    index: "01",
   },
   {
-    titleKey: "competencies.bankingCore.title",
-    descKey: "competencies.bankingCore.desc",
-    icon: "credit_card",
-    tags: ["POSTILION", "ISO 8583", "BASE24"],
-    span: "md:col-span-4",
+    title: "Next.js",
+    categoryKey: "competencies.categories.framework",
+    icon: "speed",
+    index: "02",
   },
   {
-    titleKey: "competencies.apiTesting.title",
-    descKey: "competencies.apiTesting.desc",
-    icon: "api",
-    tags: ["SOAPUI", "POSTMAN"],
-    span: "md:col-span-5",
-    hasProgressBar: true,
+    title: "Node.js",
+    categoryKey: "competencies.categories.runtime",
+    icon: "cloud",
+    index: "03",
   },
   {
-    titleKey: "competencies.fullstack.title",
-    descKey: "competencies.fullstack.desc",
-    icon: "code_blocks",
-    tags: ["REACT", "VUE3", "NODE", "POSTGRESQL"],
-    span: "md:col-span-7",
-    decorativeIcon: "database",
+    title: "TypeScript",
+    categoryKey: "competencies.categories.typing",
+    icon: "code",
+    index: "04",
+  },
+  {
+    title: "SQL",
+    categoryKey: "competencies.categories.database",
+    icon: "database",
+    index: "05",
+  },
+  {
+    title: "Supabase",
+    categoryKey: "competencies.categories.backend",
+    icon: "bolt",
+    index: "06",
+  },
+  {
+    title: "Playwright",
+    categoryKey: "competencies.categories.testing",
+    icon: "terminal",
+    index: "07",
+  },
+  {
+    title: "Git",
+    categoryKey: "competencies.categories.vcs",
+    icon: "history",
+    index: "08",
   },
 ];
 
 export const PROJECTS = [
   {
-    index: "01",
+    index: "0X01",
     titleKey: "projects.bot.title",
     descKey: "projects.bot.desc",
-    tags: ["JAVA", "SERENITY", "QA BANCARIO"],
+    categoryKey: "projects.categories.fullstack",
+    statusKey: "projects.status.active",
+    image: nursingImg,
+    tags: ["REACT", "SUPABASE", "NODE.JS", "OPENAI"],
   },
   {
-    index: "02",
-    titleKey: "projects.testSuite.title",
-    descKey: "projects.testSuite.desc",
-    tags: ["ISO 8583", "POSTILION", "POSTMAN"],
+    index: "0X02",
+    titleKey: "projects.domi.title",
+    descKey: "projects.domi.desc",
+    categoryKey: "projects.categories.saas",
+    statusKey: "projects.status.deployed",
+    image: domiImg,
+    tags: ["NEXT.JS", "POSTGRESQL", "PRISMA", "MAPS API"],
   },
   {
-    index: "03",
-    titleKey: "projects.portfolio.title",
-    descKey: "projects.portfolio.desc",
-    tags: ["REACT", "NODE.JS", "POSTGRESQL-SUPABASE"],
+    index: "0X03",
+    titleKey: "projects.erp.title",
+    descKey: "projects.erp.desc",
+    categoryKey: "projects.categories.enterprise",
+    statusKey: "projects.status.in_progress",
+    image: inventoryImg,
+    tags: ["VUE3", "MYSQL", "EXPRESS", "SCALABLE"],
   },
 ];
 
 export const CODE_SNIPPET = [
-  { line: "01", content: 'it', rest: "('should validate end-to-end flow', () => {", highlight: "cyan" },
-  { line: "02", content: 'const', rest: ' system = await Deploy.main();', highlight: "purple" },
-  { line: "03", content: 'expect', rest: '(system.reliability).toBeGreaterThan(99.9);', highlight: "cyan" },
-  { line: "04", content: '});', rest: '', highlight: "default" },
+  { line: "01", content: 'const', rest: ' { data, error } = await supabase', highlight: "purple" },
+  { line: "02", content: '  .from', rest: "('reservations').insert([{ status: 'active' }])", highlight: "cyan" },
+  { line: "03", content: 'if', rest: ' (error) throw new ScalabilityError(error.message)', highlight: "purple" },
+  { line: "04", content: 'return', rest: ' data.map(r => optimizeFlow(r))', highlight: "default" },
 ];
