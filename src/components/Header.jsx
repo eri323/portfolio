@@ -46,14 +46,11 @@ export default function Header() {
         {/* Right: Actions/Mobile Toggle */}
         <div className="flex items-center gap-4">
           <div className="hidden md:flex items-center gap-4">
-            <button 
+            <button
               onClick={toggleLanguage}
               className="font-mono text-xs font-bold text-text-muted hover:text-accent transition-colors border border-white/10 px-2 py-1 rounded"
             >
               {currentLang}
-            </button>
-            <button className="text-text-muted hover:text-accent transition-colors">
-              <span className="material-symbols-outlined">settings_ethernet</span>
             </button>
           </div>
 

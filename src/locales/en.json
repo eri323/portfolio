@@ -1,7 +1,9 @@
 {
   "nav": {
     "root": "HOME",
-    "src": "SKILLS",
+    "about": "PROFILE",
+    "services": "SERVICES",
+    "src": "STACK",
     "tests": "PROJECTS",
     "logs": "CONTACT"
   },
@@ -9,65 +11,142 @@
     "navTree": "NAVIGATION"
   },
   "hero": {
-    "available": "Open to new challenges",
+    "available": "BANKING QA · FREELANCE DEV",
     "titleP1": "Full Stack Developer",
-    "titleP2": "Scalable Systems",
-    "subtitle": "Specialist in JavaScript (React, Node, Next, Vue3) and databases (SQL, Supabase). Creating scalable systems to streamline workflows with a native focus on software quality.",
-    "cta1": "Get in Touch",
-    "cta2": "Technical Portfolio"
+    "titleP2": "QA Engineer",
+    "subtitle": "I certify critical financial software for Grupo Aval entities (PSE Avanza, SPI/BRE-B) running 200+ test cases per cycle at SQA. In parallel I build modern web apps as a freelance Full Stack dev with React, Next.js, Vue 3 and Node.js.",
+    "cta1": "Let's work together",
+    "cta2": "View projects"
+  },
+  "about": {
+    "upperTitle": "PROFILE // WHO I AM",
+    "sectionTitle": "Certified Banking QA Engineer + Freelance Full Stack Developer.",
+    "paragraph1": "I've spent 2 years as a QA Engineer at SQA certifying critical financial software for Grupo Aval entities. I've contributed to the certification of products like PSE Avanza and SPI/BRE-B, running 200+ test cases per cycle and validating transactional flows, banking messaging and business rules.",
+    "paragraph2": "In parallel I work as a freelance Full Stack Developer: I build web apps with React, Next.js, Vue 3 and Node.js connected to Supabase, PostgreSQL and Oracle. I automate E2E tests with Serenity BDD (Java + Cucumber + Screenplay), Postman and SoapUI.",
+    "paragraph3": "I write code thinking about how it can break — and deliver products that come pre-tested.",
+    "stats": {
+      "dev": {
+        "suffix": "years",
+        "desc": "Certified QA Engineer at SQA"
+      },
+      "qa": {
+        "suffix": "cases +",
+        "desc": "executed per testing cycle"
+      },
+      "banking": {
+        "value": "Grupo",
+        "suffix": "Aval",
+        "desc": "PSE Avanza · SPI/BRE-B"
+      }
+    }
+  },
+  "services": {
+    "upperTitle": "SERVICES // WHAT I OFFER",
+    "sectionTitle": "Three ways to work with me.",
+    "sectionDesc": "From freelance web projects to financial-product certification. Pick the one you need — or combine them.",
+    "dev": {
+      "title": "Full Stack Development",
+      "desc": "I build custom web apps with a modern JavaScript stack, database integration and production-ready deployments.",
+      "bullets": [
+        "React, Next.js, Vue 3, Node.js",
+        "Supabase, PostgreSQL, Oracle",
+        "Responsive design + i18n",
+        "Deployment on Vercel"
+      ]
+    },
+    "qa": {
+      "title": "QA Automation",
+      "desc": "I design and build automated test suites so your product ships to production with fewer defects and more speed.",
+      "bullets": [
+        "Serenity BDD (Java + Cucumber + Screenplay)",
+        "E2E testing with Playwright",
+        "API testing with Postman and SoapUI",
+        "CI integration and reporting"
+      ]
+    },
+    "banking": {
+      "title": "Banking QA Consulting",
+      "desc": "Support for the certification of critical financial software, drawing on experience certifying Grupo Aval products.",
+      "bullets": [
+        "ISO 8583 / BASE24 messaging",
+        "PSE / SPI / BRE-B product validation",
+        "Test-case design per cycle",
+        "Oracle DB testing and Jira traceability"
+      ]
+    }
   },
   "competencies": {
-    "upperTitle": "TECH STACK // CAPABILITIES",
-    "sectionTitle": "Integrated Toolset",
-    "sectionDesc": "A specialized selection of frameworks and languages engineered for performance and scalability in modern environments.",
+    "upperTitle": "STACK // CAPABILITIES",
+    "sectionTitle": "Two toolboxes",
+    "sectionDesc": "The stack I build with and the stack I test with. Combining them is what makes the difference.",
+    "groups": {
+      "dev": "DEVELOPMENT",
+      "devDesc": "Build the product",
+      "qa": "QUALITY ASSURANCE",
+      "qaDesc": "Make sure it works"
+    },
     "categories": {
-      "interface": "INTERFACE LIBRARY",
-      "framework": "META FRAMEWORK",
+      "interface": "UI LIBRARY",
+      "framework": "FRAMEWORK",
       "runtime": "RUNTIME ENV",
       "typing": "STATIC TYPING",
-      "database": "RELATIONAL DATA",
+      "database": "DATABASES",
       "backend": "BACKEND AS A SERVICE",
-      "testing": "TESTING ENGINE",
-      "vcs": "VCS CONTROL"
+      "vcs": "VERSION CONTROL",
+      "qaManual": "MANUAL TESTING",
+      "qaAutomation": "AUTOMATION",
+      "bdd": "BDD",
+      "pattern": "DESIGN PATTERN",
+      "e2e": "E2E TESTING",
+      "api": "API TESTING",
+      "banking": "BANKING MESSAGING",
+      "tracking": "ISSUE TRACKING"
     }
   },
   "projects": {
-    "sectionTitle": "Selected_Modules",
+    "sectionTitle": "Projects",
     "viewAll": "VIEW_ALL",
     "projectSuffix": " — ",
+    "demo": "VIEW DEMO",
+    "code": "CODE",
+    "qaLabel": "QA APPLIED",
     "categories": {
-      "fullstack": "FULLSTACK BOT",
-      "saas": "DELIVERY SAAS",
+      "fullstack": "FULLSTACK + QA",
+      "saas": "SAAS",
       "enterprise": "MANAGEMENT SYSTEM"
     },
     "status": {
-      "active": "FRAMEWORK_ACTIVE",
-      "deployed": "SYSTEM_DEPLOYED",
-      "in_progress": "IN_DEVELOPMENT"
+      "active": "ACTIVE",
+      "deployed": "DEPLOYED ON VERCEL",
+      "in_progress": "IN DEVELOPMENT"
     },
     "bot": {
       "title": "Nursing Chat-bot",
-      "desc": "Intelligent system for managing reservations and attention in nursing laboratories, developed with React and Supabase."
+      "desc": "Intelligent system for managing reservations and attention in nursing laboratories, developed with React and Supabase.",
+      "qaNote": "Validation of booking flows, error handling and chat edge cases. Documented manual testing + cases designed for E2E automation."
     },
     "domi": {
-      "title": "Domi-SaaS (In Process)",
-      "desc": "SaaS platform for delivery management and real-time tracking, optimizing delivery logistics."
+      "title": "Domi-SaaS",
+      "desc": "SaaS platform for delivery management and real-time tracking, optimizing delivery logistics.",
+      "qaNote": "Test plan designed for order flows, courier assignment and real-time geolocation. Edge cases: signal loss, concurrent orders and retries."
     },
     "erp": {
-      "title": "Management Systems",
-      "desc": "Scalable inventory and booking solutions for distributors and sports complexes, focused on streamlining business processes."
+      "title": "Inventory System",
+      "desc": "Scalable inventory and booking solutions for distributors and sports complexes, focused on streamlining business processes.",
+      "qaNote": "Stock integrity tests, booking concurrency and business-rule validation. Test matrix designed for inventory, sales and reporting modules."
     }
   },
   "contact": {
-    "title1": "Ready to",
-    "title2": "scale your",
-    "title3": "business?",
-    "desc": "Seeking opportunities where my full stack development expertise and obsession with quality add real value. Let's build unstoppable systems.",
-    "cta": "Let's Talk Code",
+    "title1": "Shall we build",
+    "title2": "something",
+    "title3": "together?",
+    "desc": "I'm open to job opportunities and freelance projects where full stack development and a QA mindset add value. Drop me a line and let's talk.",
+    "cta": "Start a conversation",
+    "ctaLinkedin": "View LinkedIn",
     "github": "GITHUB",
     "linkedin": "LINKEDIN"
   },
   "header": {
-    "title": "FULL STACK & QA PORTFOLIO"
+    "title": "DEV {} & [QA]"
   }
 }

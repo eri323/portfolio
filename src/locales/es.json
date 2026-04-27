@@ -1,7 +1,9 @@
 {
   "nav": {
     "root": "INICIO",
-    "src": "HABILIDADES",
+    "about": "PERFIL",
+    "services": "SERVICIOS",
+    "src": "STACK",
     "tests": "PROYECTOS",
     "logs": "CONTACTO"
   },
@@ -9,65 +11,142 @@
     "navTree": "NAVEGACIÓN"
   },
   "hero": {
-    "available": "Disponible para nuevos retos",
+    "available": "QA BANCARIO · DEV FREELANCE",
     "titleP1": "Full Stack Developer",
-    "titleP2": "Sistemas Escalables",
-    "subtitle": "Especialista en JavaScript (React, Node, Next, Vue3) y bases de datos (SQL, Supabase). Creando sistemas escalables para agilizar flujos de trabajo con un enfoque nativo en la calidad del software.",
-    "cta1": "Conectar",
-    "cta2": "Portafolio Técnico"
+    "titleP2": "QA Engineer",
+    "subtitle": "Certifico software financiero crítico para entidades del Grupo Aval (PSE Avanza, SPI/BRE-B) con 200+ casos por ciclo en SQA. En paralelo construyo aplicaciones web como Full Stack freelance con React, Next.js, Vue 3 y Node.js.",
+    "cta1": "Trabajemos juntos",
+    "cta2": "Ver proyectos"
+  },
+  "about": {
+    "upperTitle": "PERFIL // QUIÉN SOY",
+    "sectionTitle": "QA Engineer certificada en banca + Full Stack Developer freelance.",
+    "paragraph1": "Llevo 2 años como QA Engineer en SQA, certificando software financiero crítico para entidades del Grupo Aval. He participado en la certificación de productos como PSE Avanza y SPI/BRE-B ejecutando 200+ casos de prueba por ciclo, validando flujos transaccionales, mensajería bancaria y reglas de negocio.",
+    "paragraph2": "En paralelo trabajo como Full Stack Developer freelance: construyo aplicaciones web con React, Next.js, Vue 3 y Node.js, conectadas a Supabase, PostgreSQL y Oracle. Automatizo pruebas E2E con Serenity BDD (Java + Cucumber + Screenplay), Postman y SoapUI.",
+    "paragraph3": "Escribo código pensando en cómo puede romperse — y entrego producto que ya viene probado.",
+    "stats": {
+      "dev": {
+        "suffix": "años",
+        "desc": "QA Engineer certificada en SQA"
+      },
+      "qa": {
+        "suffix": "casos +",
+        "desc": "ejecutados por ciclo de pruebas"
+      },
+      "banking": {
+        "value": "Grupo",
+        "suffix": "Aval",
+        "desc": "PSE Avanza · SPI/BRE-B"
+      }
+    }
+  },
+  "services": {
+    "upperTitle": "SERVICIOS // QUÉ OFREZCO",
+    "sectionTitle": "Tres formas de trabajar contigo.",
+    "sectionDesc": "Desde proyectos web freelance hasta certificación de productos financieros. Elige la que necesitas — o combínalas.",
+    "dev": {
+      "title": "Desarrollo Full Stack",
+      "desc": "Construyo aplicaciones web a medida con stack JavaScript moderno, integración con bases de datos y despliegue listo para producción.",
+      "bullets": [
+        "React, Next.js, Vue 3, Node.js",
+        "Supabase, PostgreSQL, Oracle",
+        "Diseño responsivo + i18n",
+        "Despliegue en Vercel"
+      ]
+    },
+    "qa": {
+      "title": "Automatización QA",
+      "desc": "Diseño y construyo suites de pruebas automatizadas para que tu producto llegue a producción con menos defectos y más velocidad.",
+      "bullets": [
+        "Serenity BDD (Java + Cucumber + Screenplay)",
+        "Pruebas E2E con Playwright",
+        "Pruebas de API con Postman y SoapUI",
+        "Integración con CI y reportes"
+      ]
+    },
+    "banking": {
+      "title": "Consultoría QA Bancario",
+      "desc": "Apoyo en certificación de software financiero crítico con la experiencia adquirida certificando productos del Grupo Aval.",
+      "bullets": [
+        "Mensajería ISO 8583 / BASE24",
+        "Validación de productos PSE / SPI / BRE-B",
+        "Diseño de casos por ciclo de pruebas",
+        "Pruebas sobre Oracle DB y trazabilidad en Jira"
+      ]
+    }
   },
   "competencies": {
-    "upperTitle": "TECH STACK // CAPACIDADES",
-    "sectionTitle": "Integrated Toolset",
-    "sectionDesc": "Una selección especializada de frameworks y lenguajes diseñados para el rendimiento y la escalabilidad en entornos modernos.",
+    "upperTitle": "STACK // CAPACIDADES",
+    "sectionTitle": "Las dos cajas de herramientas",
+    "sectionDesc": "El stack con el que construyo y el stack con el que pruebo. Combinarlos hace la diferencia.",
+    "groups": {
+      "dev": "DESARROLLO",
+      "devDesc": "Construir el producto",
+      "qa": "QUALITY ASSURANCE",
+      "qaDesc": "Garantizar que funciona"
+    },
     "categories": {
       "interface": "LIBRERÍA DE INTERFAZ",
-      "framework": "META FRAMEWORK",
+      "framework": "FRAMEWORK",
       "runtime": "ENTORNO DE EJECUCIÓN",
       "typing": "TIPADO ESTÁTICO",
-      "database": "DATOS RELACIONALES",
+      "database": "BASES DE DATOS",
       "backend": "BACKEND AS A SERVICE",
-      "testing": "MOTOR DE PRUEBAS",
-      "vcs": "CONTROL DE VERSIONES"
+      "vcs": "CONTROL DE VERSIONES",
+      "qaManual": "PRUEBAS MANUALES",
+      "qaAutomation": "AUTOMATIZACIÓN",
+      "bdd": "BDD",
+      "pattern": "PATRÓN DE DISEÑO",
+      "e2e": "PRUEBAS E2E",
+      "api": "PRUEBAS DE API",
+      "banking": "MENSAJERÍA BANCARIA",
+      "tracking": "GESTIÓN DE INCIDENCIAS"
     }
   },
   "projects": {
-    "sectionTitle": "Selected_Modules",
-    "viewAll": "VIEW_ALL",
+    "sectionTitle": "Proyectos",
+    "viewAll": "VER_TODOS",
     "projectSuffix": " — ",
+    "demo": "VER DEMO",
+    "code": "CÓDIGO",
+    "qaLabel": "QA APLICADO",
     "categories": {
-      "fullstack": "FULLSTACK BOT",
-      "saas": "DELIVERY SAAS",
-      "enterprise": "MANAGEMENT SYSTEM"
+      "fullstack": "FULLSTACK + QA",
+      "saas": "SAAS",
+      "enterprise": "SISTEMA DE GESTIÓN"
     },
     "status": {
-      "active": "FRAMEWORK_ACTIVE",
-      "deployed": "SYSTEM_DEPLOYED",
-      "in_progress": "IN_DEVELOPMENT"
+      "active": "ACTIVO",
+      "deployed": "DESPLEGADO EN VERCEL",
+      "in_progress": "EN DESARROLLO"
     },
     "bot": {
       "title": "Chat-bot Enfermería",
-      "desc": "Sistema inteligente para la gestión de reservas y atención en laboratorios de enfermería, desarrollado con React y Supabase."
+      "desc": "Sistema inteligente para la gestión de reservas y atención en laboratorios de enfermería, desarrollado con React y Supabase.",
+      "qaNote": "Validación de flujos de reserva, manejo de errores y casos límite del chat. Pruebas manuales documentadas + casos diseñados para automatización E2E."
     },
     "domi": {
-      "title": "Domi-SaaS (En proceso)",
-      "desc": "Plataforma SaaS para la gestión de domicilios y seguimiento en tiempo real, optimizando la logística de entrega."
+      "title": "Domi-SaaS",
+      "desc": "Plataforma SaaS para la gestión de domicilios y seguimiento en tiempo real, optimizando la logística de entrega.",
+      "qaNote": "Plan de pruebas diseñado para flujos de pedido, asignación de repartidores y geolocalización en tiempo real. Casos de borde: pérdida de señal, pedidos simultáneos y reintentos."
     },
     "erp": {
-      "title": "Sistemas de Gestión",
-      "desc": "Soluciones escalables de inventarios y reservas para distribuidoras y complejos deportivos, enfocadas en agilizar procesos de negocio."
+      "title": "Sistema de Inventarios",
+      "desc": "Soluciones escalables de inventarios y reservas para distribuidoras y complejos deportivos, enfocadas en agilizar procesos de negocio.",
+      "qaNote": "Pruebas de integridad de stock, concurrencia en reservas y validación de reglas de negocio. Diseño de matriz de pruebas para módulos de inventario, ventas y reportes."
     }
   },
   "contact": {
-    "title1": "¿Listo para",
-    "title2": "escalar tu",
-    "title3": "negocio?",
-    "desc": "Busco oportunidades donde mi experiencia en desarrollo full stack y obsesión por la calidad aporten valor real. Construyamos sistemas imparables.",
-    "cta": "Hablemos de Código",
+    "title1": "¿Construimos",
+    "title2": "algo",
+    "title3": "juntos?",
+    "desc": "Estoy abierto a oportunidades laborales y proyectos independientes donde aporten valor el desarrollo full stack y la mentalidad de QA. Escríbeme y conversemos.",
+    "cta": "Iniciar conversación",
+    "ctaLinkedin": "Ver LinkedIn",
     "github": "GITHUB",
     "linkedin": "LINKEDIN"
   },
   "header": {
-    "title": "FULL STACK & QA PORTFOLIO"
+    "title": "DEV {} & [QA]"
   }
 }
